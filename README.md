@@ -25,7 +25,7 @@ Welcome to the Comment Web App! This web application allows users to engage in d
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/kishky101/commenting_service.git
-   cd comment-web-app
+   cd commenting_service
 
 
 2. **Install Dependencies**
