@@ -1,0 +1,208 @@
+.comment {
+    display: grid;
+    grid-template-columns: 4.8rem auto 2.4rem;
+    gap: 1.6rem;
+    padding: 3.2rem;
+    background-color: var(--white-color);
+    border-radius: 2rem;
+    //border: 1px solid red;
+    
+
+    & &__image {
+        width: 4.8rem;
+        height: 4.8rem;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    & &__body {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    & &__name {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+
+        h5 {
+            font-size: 1.6rem;
+            color: var(--black-color);
+            font-weight: 500;
+            line-height: 2.45rem;
+        }
+
+        span {
+            color: var(--black-color);
+            opacity: 40%;
+            font-size: 1.2rem;
+        }
+    }
+
+    & &__text {
+        margin-bottom: 1.6rem;
+
+        p {
+            font-size: 1.6rem;
+            color: var(--black-color-grad);
+            line-height: 130%;
+            white-space: pre-wrap;
+            //max-width: 660px;
+            margin-right: 1rem;
+        }
+    }
+
+    & &__footer {
+        display: flex;
+        gap: 1.8rem;
+
+        .faHeart {
+            //background-color: red;
+            font-size: 1.6rem;
+            //background-color: transparent;
+        }
+
+        .faReply {
+            transform: rotateY(180deg);
+            font-size: 1.6rem;
+        }
+    }
+
+    & &__reply {
+        display: flex;
+        gap: .8rem;
+        cursor: pointer;
+
+        span {
+            color: var(--black-color-grad);
+            font-size: 1.4rem;
+        }
+    }
+
+    & &__more {
+        position: relative;
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    & &__more-options {
+        display: none;
+        position: absolute;
+        padding: 2.4rem;
+        gap: 1.8rem;
+        right: 0;
+        border: 1px solid var(--grey-grade1);
+        background-color: var(--white-color);
+        border-radius: 1.2rem;
+
+        &--show {
+            display: flex;
+            flex-direction: column;
+        }
+
+        p {
+            display: flex;
+            font-size: 1.4rem;
+            gap: 1rem;
+            align-items: start;
+            color: var(--black-color-grad);
+            cursor: pointer;
+
+            &:hover {
+                color: var(--blue-color);
+            }
+        }
+    }
+
+    @media screen and (max-width: 835px) {
+        grid-template-columns: 4rem auto 2.4rem;
+        padding: 2.4rem;
+        gap: 1.1rem;
+
+        & &__image {
+            width: 4rem;
+            height: 4rem;
+        }
+
+        & &__body {
+            gap: .8rem;
+        }
+
+        & &__name {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+    
+            h5 {
+                font-size: 1.4rem;
+            }
+    
+            span {
+                font-size: 1rem;
+            }
+        }
+
+        & &__text {
+            margin-bottom: .8rem;
+    
+            p {
+                font-size: 1.4rem;
+                margin-right: 0rem;
+            }
+        }
+
+        & &__more {
+
+            img {
+                width: 2.2rem;
+                height: 2.2rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 376px) {
+        gap: .2rem;
+
+
+        & &__body {
+            //margin-bottom: .8rem;
+            margin-left: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 300px) {
+        padding: 1.6rem;
+    }
+    
+}
+
+.reply-comments {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.5rem;
+    gap: 1.6rem;
+    margin-top: 1.6rem;
+    padding-left: 3.9rem;
+    border-left: 2px solid var(--grey-grade1);
+
+    @media screen and (max-width: 835px) {
+        padding-left: 0rem; 
+        border-left: none;
+    }
+
+    @media screen and (max-width: 376px) {
+        margin-left: 2.4rem;
+    }
+
+    @media screen and (max-width: 300px) {
+        margin-left: 1.4rem;
+    }
+}
