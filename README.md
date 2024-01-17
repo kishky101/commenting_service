@@ -36,9 +36,9 @@ Welcome to the <span style="color:green">Comment Web App!</span> This web applic
 
 
 ## Test cases
-- [ ] Users can add new comments
-- [ ] Users can edit comments
-- [ ] Users can delete comments
+- [x] Users can add new comments
+- [x] Users can edit comments
+- [x] Users can delete comments
 
 ## Technologies Used
 
@@ -47,7 +47,7 @@ Welcome to the <span style="color:green">Comment Web App!</span> This web applic
 - **SCSS:** A preprocessor scripting language that is interpreted or compiled into CSS, providing a more maintainable and structured stylesheet. [SASS documentation](https://sass-lang.com/documentation/).
 - **React:** A JavaScript library for building user interfaces, offering a declarative and efficient way to create interactive UIs. [React documentation](https://react.dev/learn).
 - **Redux Toolkit:** An opinionated, batteries-included toolset for efficient Redux development, simplifying the state management process. [Redux toolkit documentation](https://redux-toolkit.js.org/introduction/getting-started).
-- **Team city:** TeamCity is a general-purpose CI/CD software platform that allows for flexible workflows, collaboration and development practices. [Team city CI/CD documentation](https://www.jetbrains.com/teamcity/ci-cd-guide/)
+- **Team city:** TeamCity is a general-purpose CI/CD software platform that allows for flexible workflows, collaboration and development practices. [Team city CI/CD documentation](https://www.jetbrains.com/teamcity/ci-cd-guide/).
 
 ## Getting Started
 
@@ -67,6 +67,7 @@ Welcome to the <span style="color:green">Comment Web App!</span> This web applic
 
 4. **Open in Browser**
     Visit ```http://localhost:3000``` in your preferred web browser to explore the Comment Web App.
+
 
 > [!NOTE]
 > This project was built for introduction to software engineering course in the university.
