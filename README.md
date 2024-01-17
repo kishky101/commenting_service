@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to the Comment Web App! This web application allows users to engage in dynamic discussions by creating, editing, deleting, liking comments, and even replying to each other. The app is built using modern web technologies, including Vite, Typescript, SCSS, React, and Redux Toolkit.
+Welcome to the <span style="color:green">Comment Web App!</span> This web application allows users to engage in dynamic discussions by creating, editing, deleting, liking comments, and even replying to each other. The app is built using modern web technologies, including Vite, Typescript, SCSS, React, and Redux Toolkit.
 
 ## Scope
 
@@ -11,6 +11,7 @@ Welcome to the Comment Web App! This web application allows users to engage in d
 - **Reply to Comments:** Users can engage in conversations by replying to existing comments.
 - **In-Memory Database:** The app utilizes an in-memory database, ensuring that all changes are temporary and reset after a page refresh.
 - **Responsive Design:** The interface is designed to provide a seamless experience across a variety of devices, ensuring accessibility for users on desktops, tablets, and smartphones.
+- **Continuous Integration (CI):** is a software development practice that automates the integration of code changes from various contributors into a shared repository. 
 
 ## Used software architecture
 
@@ -29,6 +30,10 @@ Welcome to the Comment Web App! This web application allows users to engage in d
     ![UML sequence diagram for deleting a comment after it has been posted](./src/assets/images/delete-comment.png)
     A UML sequence diagram demonstrating the interactions between the application for a user to delete a comment after it has been posted. 
 
+- ***Build Pipeline***
+    ![A screenshot from TeamCity showing the successful build pipeline](./src/assets/images/build-pipeline.png)
+    A screenshot from Team city dashboard displaying the successfully configured build pipeline.
+
 
 ## Test cases
 - [ ] Users can add new comments
@@ -41,7 +46,8 @@ Welcome to the Comment Web App! This web application allows users to engage in d
 - **Typescript:** Adds static typing to JavaScript, enhancing code reliability and developer productivity. [Typescript documentation](https://www.typescriptlang.org/docs/).
 - **SCSS:** A preprocessor scripting language that is interpreted or compiled into CSS, providing a more maintainable and structured stylesheet. [SASS documentation](https://sass-lang.com/documentation/).
 - **React:** A JavaScript library for building user interfaces, offering a declarative and efficient way to create interactive UIs. [React documentation](https://react.dev/learn).
-- **Redux Toolkit:** An opinionated, batteries-included toolset for efficient Redux development, simplifying the state management process. [Redux toolkit documentation](https://redux-toolkit.js.org/introduction/getting-started)
+- **Redux Toolkit:** An opinionated, batteries-included toolset for efficient Redux development, simplifying the state management process. [Redux toolkit documentation](https://redux-toolkit.js.org/introduction/getting-started).
+- **Team city:** TeamCity is a general-purpose CI/CD software platform that allows for flexible workflows, collaboration and development practices. [Team city CI/CD documentation](https://www.jetbrains.com/teamcity/ci-cd-guide/)
 
 ## Getting Started
 
