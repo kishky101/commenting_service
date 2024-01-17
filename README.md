@@ -4,17 +4,17 @@ Welcome to the Comment Web App! This web application allows users to engage in d
 
 ## Scope
 
-> **Adding New Comments:** Users can express their thoughts by creating new comments effortlessly.
-> **Edit Comment:** Users can edit comments to refine or update ideas.
-> **Delete Comment:** Users can remove comments that are no longer relevant or needed.
-> **Like Comment:** Users can show appreciation for interesting or insightful comments.
-> **Reply to Comments:** Users can engage in conversations by replying to existing comments.
-> **In-Memory Database:** The app utilizes an in-memory database, ensuring that all changes are temporary and reset after a page refresh.
-> **Responsive Design:** The interface is designed to provide a seamless experience across a variety of devices, ensuring accessibility for users on desktops, tablets, and smartphones.
+- **Adding New Comments:** Users can express their thoughts by creating new comments effortlessly.
+- **Edit Comment:** Users can edit comments to refine or update ideas.
+- **Delete Comment:** Users can remove comments that are no longer relevant or needed.
+- **Like Comment:** Users can show appreciation for interesting or insightful comments.
+- **Reply to Comments:** Users can engage in conversations by replying to existing comments.
+- **In-Memory Database:** The app utilizes an in-memory database, ensuring that all changes are temporary and reset after a page refresh.
+- **Responsive Design:** The interface is designed to provide a seamless experience across a variety of devices, ensuring accessibility for users on desktops, tablets, and smartphones.
 
 ## Used software architecture
 
-Microservice architecture[^1] is the most suitable architectural choice for a blogging platform due to its inherent flexibility, scalability, and maintainability. By decomposing the system into small, independent services, microservices allow for individual development, deployment, and scaling of components. This modular approach enhances agility, enabling seamless updates and additions to specific functionalities like user management, content creation, and comments. Additionally, microservices support efficient resource allocation, ensuring optimal performance as the platform grows, and simplifying maintenance by isolating potential issues to specific services.
+>Microservice architecture[^1] is the most suitable architectural choice for a blogging platform due to its inherent flexibility, scalability, and maintainability. By decomposing the system into small, independent services, microservices allow for individual development, deployment, and scaling of components. This modular approach enhances agility, enabling seamless updates and additions to specific functionalities like user management, content creation, and comments. Additionally, microservices support efficient resource allocation, ensuring optimal performance as the platform grows, and simplifying maintenance by isolating potential issues to specific services.
 
 ## Software design and model
 - ***Adding New Comments***
