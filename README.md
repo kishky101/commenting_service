@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to the Comment Web App! This web application allows users to engage in dynamic discussions by creating, editing, deleting, liking comments, and even replying to each other. The app is built using modern web technologies, including Vite, Typescript, SCSS, React, and Redux Toolkit.
+Welcome to the <span style="color:green">Comment Web App!</span> This web application allows users to engage in dynamic discussions by creating, editing, deleting, liking comments, and even replying to each other. The app is built using modern web technologies, including Vite, Typescript, SCSS, React, and Redux Toolkit.
 
 ## Scope
 
@@ -31,9 +31,9 @@ Welcome to the Comment Web App! This web application allows users to engage in d
 
 
 ## Test cases
-- Users can add new comments
-- Users can edit comments
-- Users can delete comments
+-[] Users can add new comments
+-[] Users can edit comments
+-[] Users can delete comments
 
 ## Technologies Used
 
