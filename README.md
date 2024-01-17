@@ -31,9 +31,9 @@ Welcome to the Comment Web App! This web application allows users to engage in d
 
 
 ## Test cases
-- [] Users can add new comments
-- [] Users can edit comments
-- [] Users can delete comments
+- [ ] Users can add new comments
+- [ ] Users can edit comments
+- [ ] Users can delete comments
 
 ## Technologies Used
 
